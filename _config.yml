@@ -1,3 +1,33 @@
-theme: jekyll-theme-minimal
-title: Richard Jain Menachery | Cyber Security Analyst/Engineer
-show_downloads: true
+theme: jekyll-theme-architect
+
+# Basic Site Settings
+title: Richard Jain Menachery
+description: Cybersecurity Analyst & Engineer Portfolio
+# subtitle: Proactive Threat Detection & Incident Response
+email: richardjain@techensglobal.com # Update this!
+url: "https://notttricharrds.github.io" # Your GitHub Pages URL
+
+# Old Money Aesthetic Colors (Subtle & Elegant)
+# Background: Off-white/Creamy
+# Text: Dark Grey/Charcoal
+# Accent: Muted Gold/Deep Blue
+# You can experiment with these hexadecimal color codes
+# Use a tool like https://htmlcolorcodes.com/color-picker/ to find more
+style:
+  background-color: "#f8f8f8" # Off-white / Very light grey
+  text-color: "#333333"      # Dark charcoal grey
+  link-color: "#5f7e7e"      # Muted Deep Blue/Teal
+  heading-color: "#2a363b"   # Almost black, for strong headings
+  accent-color: "#b8860b"    # Dark Goldenrod (Muted Gold)
+
+# Social Media Links (Architect theme uses these)
+github: notttricharrds # Just your GitHub username
+linkedin: Richard Jain Menachery # Update this! (e.g., richard-menachery-cyber)
+# You can add others like twitter: yourtwitterhandle, dribbble: yourdribbble
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
